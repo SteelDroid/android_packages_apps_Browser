@@ -265,4 +265,3 @@ if __name__ == "__main__":
   for locale in locales:
     manager.generateListForLocale(locale)
   manager.writeAllEngines()
-

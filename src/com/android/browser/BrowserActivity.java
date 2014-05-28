@@ -48,13 +48,15 @@ import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
-import java.net.InetAddress;
 import android.net.NetworkInfo;
 import android.net.Uri;
-import java.net.UnknownHostException;
 import android.net.WebAddress;
 import android.net.http.SslCertificate;
 import android.net.http.SslError;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Debug;
@@ -74,7 +76,6 @@ import android.speech.RecognizerResultsIntent;
 import android.text.IClipboard;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
-import android.util.AttributeSet;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.ContextMenu;
@@ -107,12 +108,6 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.accounts.Account;
-import android.accounts.AccountManager;
-import android.accounts.AccountManagerFuture;
-import android.accounts.AuthenticatorException;
-import android.accounts.OperationCanceledException;
-import android.accounts.AccountManagerCallback;
 
 import com.android.browser.search.SearchEngine;
 import com.android.common.Search;

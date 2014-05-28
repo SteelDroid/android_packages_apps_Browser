@@ -13,7 +13,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 
-
      This layout provides the structure for a browser tab. A tab contains the
      WebView and any number of other UI elements specific to that tab.
      Currently, the only such element is the Geolocation permissions prompt.
@@ -25,7 +24,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Wrapper layout for the WebView, which must be in a FrameLayout. -->
+    <!-- Wrapper layout for the WebView, which must be in a FrameLayout -->
     <FrameLayout android:id="@+id/webview_wrapper"
         android:layout_width="match_parent"
         android:layout_height="0dip"

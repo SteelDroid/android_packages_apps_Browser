@@ -19,6 +19,5 @@
     android:minWidth="294dip"
     android:minHeight="294dip"
     android:updatePeriodMillis="3600000"
-    android:initialLayout="@layout/bookmarkwidget"
-    >
+    android:initialLayout="@layout/bookmarkwidget">
 </appwidget-provider>

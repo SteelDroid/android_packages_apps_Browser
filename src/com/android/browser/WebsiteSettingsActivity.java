@@ -36,7 +36,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.GeolocationPermissions;
 import android.webkit.ValueCallback;
-import android.webkit.WebIconDatabase;
 import android.webkit.WebStorage;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView;
@@ -49,7 +48,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-import java.util.Vector;
 
 /**
  * Manage the settings for an origin.

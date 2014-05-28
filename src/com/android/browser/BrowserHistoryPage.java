@@ -50,9 +50,9 @@ import android.widget.Toast;
  * days of viewing.
  */
 public class BrowserHistoryPage extends ExpandableListActivity {
-    private HistoryAdapter          mAdapter;
-    private boolean                 mDisableNewWindow;
-    private HistoryItem             mContextHeader;
+    private HistoryAdapter mAdapter;
+    private boolean        mDisableNewWindow;
+    private HistoryItem    mContextHeader;
 
     private final static String LOGTAG = "browser";
 

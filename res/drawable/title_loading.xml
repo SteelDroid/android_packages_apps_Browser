@@ -20,11 +20,7 @@
 
     <item android:state_pressed="true"
         android:drawable="@*android:drawable/textfield_search_pressed" />
-
     <item android:state_enabled="true" android:state_focused="true"
         android:drawable="@*android:drawable/textfield_search_selected" />
-
     <item android:drawable="@*android:drawable/textfield_search_default" />
-
 </selector>
-

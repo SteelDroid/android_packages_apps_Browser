@@ -14,11 +14,12 @@
      limitations under the License.
 -->
 
-<PreferenceScreen 
-        xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
     <PreferenceCategory
-        android:title="@string/pref_development_title" 
-        android:key="debug_menu" >
+        android:title="@string/pref_development_title"
+        android:key="debug_menu">
 
         <!-- The javascript console is enabled by default when the user has
              also enabled debug mode by navigating to about:debug. -->
@@ -26,27 +27,27 @@
             android:key="javascript_console"
             android:defaultValue="true"
             android:title="@string/pref_development_error_console" />
-                        
+
         <CheckBoxPreference
             android:key="small_screen"
             android:defaultValue="false"
-            android:title="@string/pref_development_single_column_rendering" />   
+            android:title="@string/pref_development_single_column_rendering" />
 
         <CheckBoxPreference
             android:key="wide_viewport"
             android:defaultValue="true"
             android:title="@string/pref_development_viewport" />
-                    
+
         <CheckBoxPreference
             android:key="normal_layout"
             android:defaultValue="false"
-            android:title="@string/pref_development_normal_rendering" />       
-        
+            android:title="@string/pref_development_normal_rendering" />
+
         <CheckBoxPreference
             android:key="enable_tracing"
             android:defaultValue="false"
             android:title="@string/pref_development_trace" />
-    
+
         <CheckBoxPreference
             android:key="enable_light_touch"
             android:defaultValue="false"
@@ -67,7 +68,7 @@
             android:title="@string/pref_development_uastring"
             android:entries="@array/pref_development_ua_choices"
             android:entryValues="@array/pref_development_ua_values"
-            android:defaultValue="0"/>
+            android:defaultValue="0" />
 
     </PreferenceCategory>
 

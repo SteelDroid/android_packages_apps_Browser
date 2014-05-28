@@ -27,7 +27,7 @@ import android.widget.TextView;
  // FIXME: Remove BrowserBookmarkItem
 class AddNewBookmark extends LinearLayout {
 
-    private TextView    mUrlText;
+    private TextView  mUrlText;
 
     /**
      *  Instantiate a bookmark item, including a default favicon.

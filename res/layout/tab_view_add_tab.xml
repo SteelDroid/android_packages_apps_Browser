@@ -19,14 +19,15 @@
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:layout_width="match_parent"
     android:orientation="horizontal"
-    android:gravity="center_vertical"
-    >
+    android:gravity="center_vertical">
+
     <ImageView
         android:layout_width="40dip"
         android:layout_height="40dip"
         android:layout_marginLeft="8dip"
         android:layout_marginRight="8dip"
-        android:src="@drawable/ic_list_new_window"/>
+        android:src="@drawable/ic_list_new_window" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,6 +35,5 @@
         android:maxLines="1"
         android:singleLine="true"
         android:ellipsize="end"
-        android:text="@string/new_tab"
-        />
+        android:text="@string/new_tab" />
 </LinearLayout>

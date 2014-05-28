@@ -4,9 +4,9 @@
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-  
+
           http://www.apache.org/licenses/LICENSE-2.0
-  
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -17,12 +17,12 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <!-- Placeholder for the success message or one or more warnings -->
         <LinearLayout 
@@ -52,7 +52,7 @@
             android:orientation="vertical">
 
             <!-- Issued to: -->
-            <TextView 
+            <TextView
                 android:id="@+id/issued_to_header"
                 android:text="@string/issued_to"
                 android:textStyle="bold"
@@ -66,7 +66,7 @@
 
             <!-- Common name: -->
             <TableRow>
-                <TextView 
+                <TextView
                     android:id="@+id/to_common_header"
                     android:text="@string/common_name"
                     android:textSize="14sp"
@@ -74,7 +74,7 @@
                     android:gravity="left"
                     android:layout_marginLeft="20dip" />
 
-                <TextView 
+                <TextView
                     android:id="@+id/to_common"
                     android:textSize="14sp"
                     android:textColor="@color/ssl_text_value"
@@ -83,10 +83,10 @@
                     android:layout_marginRight="20dip"
                     android:layout_marginBottom="7dip" />
             </TableRow>
-    
+
             <!-- Organization: -->
             <TableRow>
-                <TextView 
+                <TextView
                     android:id="@+id/to_org_header"
                     android:text="@string/org_name"
                     android:textSize="14sp"
@@ -94,7 +94,7 @@
                     android:gravity="left"
                     android:layout_marginLeft="20dip" />
 
-                <TextView 
+                <TextView
                     android:id="@+id/to_org"
                     android:textSize="14sp"
                     android:textColor="@color/ssl_text_value"
@@ -105,8 +105,8 @@
             </TableRow>
 
             <!-- Organizational unit: -->
-            <TableRow> 
-                <TextView 
+            <TableRow>
+                <TextView
                     android:id="@+id/to_org_unit_header"
                     android:text="@string/org_unit"
                     android:textSize="14sp"
@@ -114,7 +114,7 @@
                     android:gravity="left"
                     android:layout_marginLeft="20dip" />
 
-                <TextView 
+                <TextView
                     android:id="@+id/to_org_unit"
                     android:textSize="14sp"
                     android:textColor="@color/ssl_text_value"
@@ -125,7 +125,7 @@
             </TableRow>
 
             <!-- Issued by: -->
-            <TextView 
+            <TextView
                 android:id="@+id/issued_to_header"
                 android:text="@string/issued_by"
                 android:textStyle="bold"
@@ -139,7 +139,7 @@
 
             <!-- Common name: -->
             <TableRow>
-                <TextView 
+                <TextView
                     android:id="@+id/by_common_header"
                     android:text="@string/common_name"
                     android:textSize="14sp"
@@ -147,7 +147,7 @@
                     android:gravity="left"
                     android:layout_marginLeft="20dip" />
 
-                <TextView 
+                <TextView
                     android:id="@+id/by_common"
                     android:textSize="14sp"
                     android:textColor="@color/ssl_text_value"
@@ -159,7 +159,7 @@
 
             <!-- Organization: -->
             <TableRow>
-                <TextView 
+                <TextView
                     android:id="@+id/by_org_header"
                     android:text="@string/org_name"
                     android:textSize="14sp"
@@ -167,7 +167,7 @@
                     android:gravity="left"
                     android:layout_marginLeft="20dip" />
 
-                <TextView 
+                <TextView
                     android:id="@+id/by_org"
                     android:textSize="14sp"
                     android:textColor="@color/ssl_text_value"
@@ -179,7 +179,7 @@
 
             <!-- Organizational unit: -->
             <TableRow> 
-                <TextView 
+                <TextView
                     android:id="@+id/by_org_unit_header"
                     android:text="@string/org_unit"
                     android:textSize="14sp"
@@ -187,7 +187,7 @@
                     android:gravity="left"
                     android:layout_marginLeft="20dip" />
 
-                <TextView 
+                <TextView
                     android:id="@+id/by_org_unit"
                     android:textSize="14sp"
                     android:textColor="@color/ssl_text_value"
@@ -209,19 +209,19 @@
                 android:layout_marginLeft="20dip"
                 android:layout_marginRight="20dip"
                 android:layout_marginBottom="7dip" />
-            
+
             <!-- Issued On: -->
             <TableRow>
                 <TextView
                     android:id="@+id/issued_on_header"
-                    android:layout_width="wrap_content" 
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/issued_on"
                     android:textSize="14sp"
                     android:textColor="@color/ssl_text_label"
                     android:gravity="left"
                     android:layout_marginLeft="20dip" />
-        
+
                 <TextView
                     android:id="@+id/issued_on"
                     android:layout_height="wrap_content"
@@ -239,14 +239,14 @@
             <TableRow>
                 <TextView
                     android:id="@+id/expires_on_header"
-                    android:layout_width="wrap_content" 
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/expires_on"
                     android:textSize="14sp"
                     android:textColor="@color/ssl_text_label"
                     android:gravity="left"
                     android:layout_marginLeft="20dip" />
-                
+
                 <TextView
                     android:id="@+id/expires_on"
                     android:layout_height="wrap_content"
@@ -260,7 +260,7 @@
             </TableRow>
 
         </TableLayout>
-        
+
     </LinearLayout>
 
 </ScrollView>

@@ -16,8 +16,8 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape>
-            <corners android:radius="5dip"/>
-            <solid android:color="@color/white"/>
+            <corners android:radius="5dip" />
+            <solid android:color="@color/white" />
         </shape>
     </item>
 </layer-list>

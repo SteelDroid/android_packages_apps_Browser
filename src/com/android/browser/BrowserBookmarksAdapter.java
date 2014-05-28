@@ -31,7 +31,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.provider.Browser;
 import android.provider.Browser.BookmarkColumns;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

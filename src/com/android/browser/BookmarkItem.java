@@ -112,7 +112,7 @@ class BookmarkItem extends LinearLayout {
 
         mTextView.setText(name);
     }
-    
+
     /**
      *  Set the new url for the bookmark item.
      *  @param url  The new url for the bookmark item.

@@ -25,13 +25,13 @@ import android.webkit.CookieSyncManager;
 
 import dalvik.system.VMRuntime;
 
-public class Browser extends Application { 
+public class Browser extends Application {
 
     private final static String LOGTAG = "browser";
 
     // Set to true to enable extra debugging.
     final static boolean DEBUG = false;
-    
+
     // Set to true to enable verbose logging.
     final static boolean LOGV_ENABLED = DEBUG;
 
@@ -65,4 +65,3 @@ public class Browser extends Application {
         return intent;
     }
 }
-

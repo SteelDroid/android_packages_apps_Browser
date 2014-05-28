@@ -14,24 +14,21 @@
  * limitations under the License.
  */
 
- 
 package com.android.browser;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.provider.Browser;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- *  Layout representing a history item in the classic history viewer.
+ * Layout representing a history item in the classic history viewer.
  */
 /* package */ class HistoryItem extends BookmarkItem {
 
     private CompoundButton  mStar;      // Star for bookmarking
-    private CompoundButton.OnCheckedChangeListener  mListener;
+    private CompoundButton.OnCheckedChangeListener mListener;
     /**
      *  Create a new HistoryItem.
      *  @param context  Context for this HistoryItem.
@@ -55,7 +52,7 @@ import android.widget.TextView;
             }
         };
     }
-    
+
     /* package */ void copyTo(HistoryItem item) {
         item.mTextView.setText(mTextView.getText());
         item.mUrlText.setText(mUrlText.getText());

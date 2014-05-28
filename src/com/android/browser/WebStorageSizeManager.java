@@ -26,8 +26,6 @@ import android.util.Log;
 import android.webkit.WebStorage;
 
 import java.io.File;
-import java.util.Set;
-
 
 /**
  * Package level class for managing the disk size consumed by the WebDatabase

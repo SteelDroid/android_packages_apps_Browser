@@ -23,45 +23,39 @@
     android:paddingRight="4dip"
     android:paddingBottom="1dip"
     android:background="@android:drawable/bottom_bar">
+
     <ImageButton
         android:src="@drawable/ic_btn_copy"
         android:id="@+id/copy"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
     <ImageButton
         android:src="@drawable/ic_btn_share"
         android:id="@+id/share"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
     <ImageButton
         android:src="@drawable/ic_btn_select_all"
         android:id="@+id/select_all"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
     <ImageButton
         android:src="@drawable/ic_btn_find"
         android:id="@+id/find"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
     <LinearLayout
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
-        android:layout_weight="1"
-        />
+        android:layout_weight="1" />
 
     <ImageButton
         android:src="@drawable/ic_btn_close_panel"
         android:id="@+id/done"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 </LinearLayout>
-
